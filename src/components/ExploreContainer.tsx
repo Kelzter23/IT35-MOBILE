@@ -1,14 +1,12 @@
-import './ExploreContainer.css';
+import React from "react";
+import { IonButton } from "@ionic/react";
 
-interface ContainerProps { }
-
-const ExploreContainer: React.FC<ContainerProps> = () => {
+function Example() {
   return (
-    <div id="container">
-      <strong>Ready to create an app?</strong>
-      <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-    </div>
+    <>
+      <IonButton expand="block">Block</IonButton>
+      <IonButton expand="full">Full</IonButton>
+    </>
   );
-};
-
-export default ExploreContainer;
+}
+export default Example;
