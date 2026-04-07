@@ -23,7 +23,7 @@ const About: React.FC = () => {
       </IonHeader>
 
       <IonContent className="ion-padding">
-        <h1>Budong kini nga cutiepie</h1>
+        <h1>Dwight kini</h1>
       </IonContent>
     </IonPage>
   );
